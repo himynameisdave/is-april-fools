@@ -1,5 +1,5 @@
-const APRIL = 3;
-const FOOLS = 1;
+import { APRIL, FOOLS } from './constants.js';
+
 
 /**
  *  Returns true if today is April 1st
