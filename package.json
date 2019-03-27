@@ -1,6 +1,6 @@
 {
     "name": "is-april-fools",
-    "version": "0.0.1",
+    "version": "1.0.1",
     "description": "🎉 Micro library to check if it is April 1st",
     "keywords": [
         "april-fools",
