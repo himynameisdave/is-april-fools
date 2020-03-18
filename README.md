@@ -58,6 +58,10 @@ if (isAprilFools()) {
 }
 ```
 
+#### Note
+
+This package uses the current date from the machine it is running on, meaning if this is running on a server or in a lambda somewhere, you may get unexpected results or some weird edge cases.
+
 ### Contributing
 
 Feel free to [file an issue](https://github.com/himynameisdave/is-april-fools/issues/new) or open a pull request.
