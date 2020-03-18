@@ -17,9 +17,9 @@
   "browser": "lib/index.umd.js",
   "unpkg": "lib/index.umd.js",
   "scripts": {
-    "build": "rollup -c",
-    "lint": "eslint ./src/ --ext .ts --ignore-pattern **/__tests__/**/* --report-unused-disable-directives",
-    "lint:fix": "eslint ./src/ --ext .ts --ignore-pattern **/__tests__/**/* --fix",
+    "build": "rollup -c rollup.config.ts",
+    "lint": "eslint ./src/ --ext .ts  --report-unused-disable-directives",
+    "lint:fix": "eslint ./src/ --ext .ts  --fix",
     "test:js": "jest --coverage",
     "test:coverage": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "viewCoverage": "npm run test:js && open ./coverage/lcov-report/index.html -a Google\\ Chrome",
@@ -62,7 +62,7 @@
     }
   },
   "lint-staged": {
-    "*.ts": "eslint ./src/ --ext .ts --ignore-pattern **/__tests__/**/* --fix --quiet"
+    "*.ts": "eslint ./src/ --ext .ts --fix --quiet"
   },
   "engines": {
     "node": ">= 10"
