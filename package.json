@@ -1,55 +1,61 @@
 {
-    "name": "is-april-fools",
-    "version": "1.0.1",
-    "description": "🎉 Micro library to check if it is April 1st",
-    "keywords": [
-        "april-fools",
-        "fun",
-        "micro-library",
-        "date"
-    ],
-    "author": {
-        "name": "himynameisdave",
-        "email": "d@velunny.com"
-    },
-    "main": "lib/index.cjs.js",
-    "module": "lib/index.esm.js",
-    "browser": "lib/index.umd.js",
-    "unpkg": "lib/index.umd.js",
-    "scripts": {
-        "build": "rollup -c",
-        "lint": "eslint ./src/ --ext .js",
-        "lint:fix": "eslint ./src/ --ext .js --fix",
-        "test:js": "jest --coverage",
-        "test:coverage": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-        "viewCoverage": "npm run test:js && open ./coverage/lcov-report/index.html -a Google\\ Chrome",
-        "test:watch": "jest --watch",
-        "ci": "npm run lint && npm run test:js",
-        "test": "npm outdated && npm run lint && npm run test:js",
-        "release": "np --no-yarn"
-    },
-    "devDependencies": {
-        "@babel/core": "7.4.0",
-        "@babel/preset-env": "7.4.2",
-        "babel-eslint": "10.0.1",
-        "coveralls": "3.0.3",
-        "eslint": "5.15.3",
-        "eslint-config-7geese": "2.4.0",
-        "eslint-plugin-filenames": "1.3.2",
-        "eslint-plugin-import": "2.16.0",
-        "eslint-plugin-jest": "22.4.1",
-        "jest": "24.5.0",
-        "np": "4.0.2",
-        "rollup": "1.7.3",
-        "rollup-plugin-babel": "4.3.2",
-        "rollup-plugin-commonjs": "9.2.2",
-        "rollup-plugin-node-resolve": "4.0.1",
-        "rollup-plugin-terser": "4.0.4"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/himynameisdave/is-april-fools.git"
-    },
-    "homepage": "https://github.com/himynameisdave/is-april-fools#readme",
-    "license": "MIT"
+  "name": "is-april-fools",
+  "version": "1.0.1",
+  "description": "🎉 Micro library to check if it's April 1st",
+  "keywords": [
+    "april-fools",
+    "fun",
+    "micro-library",
+    "date"
+  ],
+  "author": {
+    "name": "himynameisdave",
+    "email": "d@velunny.com"
+  },
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.esm.js",
+  "browser": "lib/index.umd.js",
+  "unpkg": "lib/index.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint ./src/ --ext .js",
+    "lint:fix": "eslint ./src/ --ext .js --fix",
+    "test:js": "jest --coverage",
+    "test:coverage": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "viewCoverage": "npm run test:js && open ./coverage/lcov-report/index.html -a Google\\ Chrome",
+    "test:watch": "jest --watch",
+    "ci": "npm run lint && npm run test:js",
+    "test": "npm outdated && npm run lint && npm run test:js",
+    "release": "np --no-yarn"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-typescript": "^7.8.3",
+    "@types/jest": "^25.1.4",
+    "babel-eslint": "^10.1.0",
+    "coveralls": "^3.0.9",
+    "eslint": "5.15.3",
+    "eslint-config-7geese": "2.4.0",
+    "eslint-plugin-filenames": "1.3.2",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-jest": "22.4.1",
+    "jest": "^25.1.0",
+    "np": "^6.2.0",
+    "rollup": "^2.1.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-sourcemaps": "^0.5.0",
+    "rollup-plugin-terser": "^5.3.0",
+    "rollup-plugin-typescript2": "^0.26.0",
+    "typescript": "^3.8.3"
+  },
+  "sideEffects": false,
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himynameisdave/is-april-fools.git"
+  },
+  "homepage": "https://github.com/himynameisdave/is-april-fools#readme",
+  "license": "MIT"
 }
