@@ -11,8 +11,8 @@
         <a href="https://bundlephobia.com/result?p=is-april-fools">
             <img src="https://img.shields.io/bundlephobia/min/is-april-fools.svg" alt="Bundle size (minified)" />
         </a>
-        <a href="https://www.npmjs.com/package/is-april-fools">
-            <img src="https://img.shields.io/npm/dt/is-april-fools.svg" alt="Downloads">
+        <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fhimynameisdave%2Fis-april-fools?ref=badge_shield" alt="FOSSA Status">
+            <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhimynameisdave%2Fis-april-fools.svg?type=shield"/>
         </a>
     </div>
 </div>
