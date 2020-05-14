@@ -8,6 +8,7 @@
         <a href='https://coveralls.io/github/himynameisdave/is-april-fools?branch=master'>
             <img src='https://coveralls.io/repos/github/himynameisdave/is-april-fools/badge.svg?branch=master' alt='Coverage Status' />
         </a>
+<a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fhimynameisdave%2Fis-april-fools?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhimynameisdave%2Fis-april-fools.svg?type=shield"/></a>
         <a href="https://bundlephobia.com/result?p=is-april-fools">
             <img src="https://img.shields.io/bundlephobia/min/is-april-fools.svg" alt="Bundle size (minified)" />
         </a>
@@ -69,3 +70,7 @@ Feel free to [file an issue](https://github.com/himynameisdave/is-april-fools/is
 ---
 
 _👌 Built by [Dave Lunny](http://himynameisdave.com) in the wonderful year 2019._
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhimynameisdave%2Fis-april-fools.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fhimynameisdave%2Fis-april-fools?ref=badge_large)
